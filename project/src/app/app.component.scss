@@ -89,14 +89,30 @@
   top: 80px;
 }
 img.company-logo {
-  width: 30px;
+  width: 35px;
   border-radius: 8px;
+  padding: 3px;
+  position: relative;
+  margin-bottom: -10px;
+  margin-right: 0.5em;
 }
 .assignments {
   font-weight: bold;
 }
 .btn-more {
   display: none;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    border: solid 5px;
+    border-radius: 8px;
+    padding: 0.5em;
+    transform: rotate(-31deg);
+    margin-right: 40px;
+  }
 }
 @media print {
   .no-print,

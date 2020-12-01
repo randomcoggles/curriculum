@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port 4216",
     "build": "ng build --prod --base-href \"https://randomcoggles.github.io/curriculum/\" --output-path=../dist",
     "test": "ng test",
     "lint": "ng lint",
