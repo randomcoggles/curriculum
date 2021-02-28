@@ -29,65 +29,68 @@
         Pesonal Data
         <!-- <mat-slide-toggle (click)="log(personalData)"> Will be printed</mat-slide-toggle> -->
       </h1>
-      <table>
-        <tr>
-          <td class="p-data-item-tile">Birth date:</td>
-          <td class="p-data-item">07/13/1981</td>
-        </tr>
-        <tr>
-          <td class="p-data-item-tile">Marital Status:</td>
-          <td class="p-data-item">Single</td>
-        </tr>
-        <tr>
-          <td class="p-data-item-tile">Country:</td>
-          <td class="p-data-item">Brazil</td>
-        </tr>
-        <tr>
-          <td class="p-data-item-tile">State:</td>
-          <td class="p-data-item">São Paulo</td>
-        </tr>
-        <tr>
-          <td class="p-data-item-tile">City:</td>
-          <td class="p-data-item">São Paulo</td>
-        </tr>
-        <tr>
-          <td class="p-data-item-tile">Neighbohood:</td>
-          <td class="p-data-item">JD Laura</td>
-        </tr>
-        <tr>
-          <td class="p-data-item-tile">ZIP Code:</td>
-          <td class="p-data-item">{{ zip }}</td>
-        </tr>
-        <tr>
-          <td class="p-data-item-tile">Adressline:</td>
-          <td class="p-data-item">{{ address }}</td>
-        </tr>
-        <tr>
-          <td class="p-data-item-tile">Cellphone:</td>
-          <td class="p-data-item">{{ cellphone }}</td>
-        </tr>
-        <tr>
-          <td class="p-data-item-tile">E-mail:</td>
-          <td class="p-data-item">{{ email }}</td>
-        </tr>
-        <tr>
-          <td class="p-data-item-tile">LinkedIn:</td>
-          <td class="p-data-item">
-            <a target="_blank"
-              href="https://www.linkedin.com/in/itamar-serafim-silva">https://www.linkedin.com/in/itamar-serafim-silva</a>
-          </td>
-        </tr>
-        <tr>
-          <td class="p-data-item-tile">Stackblitz:</td>
-          <td class="p-data-item">
-            <a target="_blank"
-              href="https://angular-bootstrap4-playground.stackblitz.io">https://angular-bootstrap4-playground.stackblitz.io</a>
-            <br />
-            <a target="_blank"
-              href="https://d3-charts-playground.stackblitz.io">https://d3-charts-playground.stackblitz.io</a>
-          </td>
-        </tr>
-      </table>
+      <div class="d-flex">
+        <table>
+          <tr>
+            <td class="p-data-item-tile">Birth date:</td>
+            <td class="p-data-item">07/13/1981</td>
+          </tr>
+          <tr>
+            <td class="p-data-item-tile">Marital Status:</td>
+            <td class="p-data-item">Single</td>
+          </tr>
+          <tr>
+            <td class="p-data-item-tile">Country:</td>
+            <td class="p-data-item">Brazil</td>
+          </tr>
+          <tr>
+            <td class="p-data-item-tile">State:</td>
+            <td class="p-data-item">São Paulo</td>
+          </tr>
+          <tr>
+            <td class="p-data-item-tile">City:</td>
+            <td class="p-data-item">São Paulo</td>
+          </tr>
+          <tr>
+            <td class="p-data-item-tile">Neighbohood:</td>
+            <td class="p-data-item">JD Laura</td>
+          </tr>
+          <tr>
+            <td class="p-data-item-tile">ZIP Code:</td>
+            <td class="p-data-item">{{ zip }}</td>
+          </tr>
+          <tr>
+            <td class="p-data-item-tile">Adressline:</td>
+            <td class="p-data-item">{{ address }}</td>
+          </tr>
+          <tr>
+            <td class="p-data-item-tile">Cellphone:</td>
+            <td class="p-data-item">{{ cellphone }}</td>
+          </tr>
+          <tr>
+            <td class="p-data-item-tile">E-mail:</td>
+            <td class="p-data-item">{{ email }}</td>
+          </tr>
+          <tr>
+            <td class="p-data-item-tile">LinkedIn:</td>
+            <td class="p-data-item">
+              <a target="_blank"
+                href="https://www.linkedin.com/in/itamar-serafim-silva">https://www.linkedin.com/in/itamar-serafim-silva</a>
+            </td>
+          </tr>
+          <tr>
+            <td class="p-data-item-tile">Stackblitz:</td>
+            <td class="p-data-item">
+              <a target="_blank"
+                href="https://angular-bootstrap4-playground.stackblitz.io">https://angular-bootstrap4-playground.stackblitz.io</a>
+              <br />
+              <a target="_blank"
+                href="https://d3-charts-playground.stackblitz.io">https://d3-charts-playground.stackblitz.io</a>
+            </td>
+          </tr>
+        </table>
+        <img src="../assets/images/me.png" alt="photo" title="Itamar Serafim Silva">
+      </div>
     </section>
 
     <section class="c-section">
@@ -192,8 +195,7 @@
           <td class="date-range">02/2020 - 07/2020</td>
           <td>
             <p class="experience-title company-name">
-              <img class="company-logo"
-                src="https://media-exp1.licdn.com/dms/image/C4E0BAQG8dVHdZkr_0g/company-logo_100_100/0?e=1601510400&v=beta&t=l34hdokegoLB40vf1oOY3S6ygbvhyTtY6LzaKgHwl4U" />
+              <img class="company-logo" src="./assets/images/companies-logos/gft.svg" />
               GFT Group
             </p>
             <p>Development of a SAAS for a financial institution</p>
@@ -230,8 +232,7 @@
           <td class="date-range">05/2019 - 02/2020</td>
           <td>
             <p class="experience-title company-name">
-              <img class="company-logo"
-                src="https://media-exp1.licdn.com/dms/image/C4E0BAQFYfXmc89slmg/company-logo_100_100/0?e=1601510400&v=beta&t=e2ijgAp71kLSDtxFtLsWJIE0JEW-fjsLYGlVoBSXHlY" />
+              <img class="company-logo" src="./assets/images/companies-logos/ignilife.svg" />
               Ignilife
             </p>
             <span class="assignments">Assignments:</span>
@@ -264,8 +265,7 @@
           <td class="date-range">03/2019 - 05/2019</td>
           <td>
             <p class="experience-title company-name">
-              <img class="company-logo"
-                src="https://media-exp1.licdn.com/dms/image/C4D0BAQHX2zsMj7NLNQ/company-logo_100_100/0?e=1601510400&v=beta&t=Y6S2JZO-SiegUyF2Rk3VicVQehBmDsT-0tFw1zwMYJs" />
+              <img class="company-logo" src="./assets/images/companies-logos/indra.svg" />
               Indra
             </p>
             <p>Development of modules for ATM machine.</p>
@@ -286,8 +286,7 @@
           <td class="date-range">06/2018 - 03/2019</td>
           <td>
             <p class="experience-title company-name">
-              <img class="company-logo"
-                src="https://media-exp1.licdn.com/dms/image/C4D0BAQErEWFu9IWJQw/company-logo_100_100/0?e=1601510400&v=beta&t=fhbB4Q61B3kj_0KrI_NKVvclGGZlmSAH8-O7eZnRT7k" />
+              <img class="company-logo" src="./assets/images/companies-logos/iteris.svg" />
               Iteris
             </p>
             <p>Platform for integrating companies, schools and students.</p>
@@ -344,8 +343,7 @@
           <td class="date-range">08/2014 - 08/2016</td>
           <td>
             <p class="experience-title company-name">
-              <img class="company-logo"
-                src="https://media-exp1.licdn.com/dms/image/C4E0BAQGIo0POXe81dw/company-logo_100_100/0?e=1601510400&v=beta&t=1ywVbYRyUQD4WkVxyQJPO9BoJAwQXupV3GKWjK_8BF4" />
+              <img class="company-logo" src="./assets/images/companies-logos/class-solutions.svg" />
               Class Systems Solutions(for the second time)
             </p>
             <p>
@@ -407,8 +405,7 @@
           <td class="date-range">01/2013 – 04/2014</td>
           <td>
             <p class="experience-title company-name">
-              <img class="company-logo"
-                src="https://media-exp1.licdn.com/dms/image/C4E0BAQGIo0POXe81dw/company-logo_100_100/0?e=1601510400&v=beta&t=1ywVbYRyUQD4WkVxyQJPO9BoJAwQXupV3GKWjK_8BF4" />
+              <img class="company-logo" src="./assets/images/companies-logos/class-solutions.svg" />
               Class Systems Solutions(first time)
             </p>
             <p>
