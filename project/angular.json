@@ -18,8 +18,8 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "deployUrl": "/dist/",
-            "outputPath": "dist",
-            "index": "../dist/index.html",
+            "outputPath": "",
+            "index": "../index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
