@@ -19,7 +19,7 @@
           "options": {
             "deployUrl": "/dist/",
             "outputPath": "dist",
-            "index": "../index.html",
+            "index": "../dist/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
